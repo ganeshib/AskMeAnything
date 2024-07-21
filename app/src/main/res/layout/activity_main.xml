@@ -48,17 +48,22 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:max="3"
-        android:progress="100" />
+        android:progress="100"
+        android:visibility="gone"/>
 
 
-    <TextView
-        android:id="@+id/result"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:hint="Your Results Will Appears Here" />
-
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Your Results Will Appears Here" />
+    </ScrollView>
 
 
 </LinearLayout>

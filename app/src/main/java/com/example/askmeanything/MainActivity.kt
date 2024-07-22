@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                     // The Gemini 1.5 models are versatile and work with both text-only and multimodal prompts
                     modelName = "gemini-1.5-flash",
                     // Access your API key as a Build Configuration variable (see "Set up your API key" above)
-                    apiKey=""
+                    apiKey="AIzaSyBryEXtLzMS3uK3m1aGCIzgsct9Zm3COUY"
                 )
 
                 runBlocking {
